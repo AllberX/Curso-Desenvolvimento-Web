@@ -33,4 +33,14 @@ a{
     background-color: khaki;
 
 }
+/*CRIANDO TABELA*/
+th {
+    font-size: 20px;
+    background-color: rgba(225, 226, 235, 0.473);
+    border: solid 1px rgb(3, 0, 10) ;
+}
+td {
+    font-size: 17px;
+    border: solid 1px rgb(3, 0, 10) ;
+}
 
