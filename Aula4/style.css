@@ -1,0 +1,36 @@
+.div_menu {
+    width: 100px; 
+    height: 30px; 
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(170, 218, 219);
+}
+/*MUDA A COR COM A SETA DO MOUSE*/
+.div_menu:hover {
+    background-color: rgb(147, 152, 221);
+}
+/*DEIXA A LISTA NA HORIZONTAL*/
+ li{
+    float: left;
+    list-style-type: none;
+}
+/*REMOVER SUBLINHADO*/
+a{
+    text-decoration: none;
+}
+/*Div do conteudo*/
+.div_conteudo {
+    width: 700px; 
+    height: 400px; 
+    border: solid 2px black;
+    background-color: khaki;
+}
+/*Div do rodapé*/
+.div_rodapé {
+    width: 700px; 
+    height: 80px; 
+    border: solid 2px black;
+    background-color: khaki;
+
+}
+
