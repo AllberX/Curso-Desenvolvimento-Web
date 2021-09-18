@@ -1,0 +1,45 @@
+.caixa {
+width: 800px;
+height: 600px;
+border: solid 3px black;
+background-color: paleturquoise;
+}
+
+table{
+width: 600px;
+height: 400px;
+border: solid 3px rgb(39, 18, 228);
+margin: 0 auto;
+margin-top: 20px;
+background-color: white;
+
+border-spacing: 10px 10px;
+}
+
+.caixaform {
+width: 600px;
+height: 80px;
+border: solid 3px blue;
+margin: 0 auto;
+margin-top: 20px;
+background-color: white;
+
+text-align: center;
+color: mediumblue;
+line-height: 80px;
+
+}
+
+th{
+    border-top: solid 2px rgb(8, 153, 250);
+    border-bottom:solid 2px rgb(8, 153, 250);
+    background-color: paleturquoise;
+
+}
+
+td{
+    border-left: solid 2px rgb(46, 27, 212);
+    border-right: solid 2px rgb(46, 27, 212);
+    text-align: center;
+}
+
