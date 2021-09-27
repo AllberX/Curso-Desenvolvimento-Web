@@ -1,0 +1,47 @@
+.div_estilizada {
+width: 1000px;
+height: 610px;
+line-height: 100px;
+border-top: solid 6px red;
+border-bottom: solid 6px red;
+background-color: turquoise;
+}
+/*TITULO*/
+th{
+    color: rgb(185, 123, 8);
+    border: solid 5px blue;
+    width: 330px;
+    height: 100px;
+    background-color: rgb(176, 209, 214);
+}
+/*CONTEUDO*/
+td{
+    color: red;
+    border: solid 3px green;
+    width: 330px;  
+    height: 150px; 
+    text-align: center;
+    background-color: rgb(224, 244, 247);
+}
+/*FIGURAS GEOMETRICAS*/
+#circulo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    background-color: rgb(255, 0, 157);
+    margin-left: 120px;
+}
+#retangulo {
+    width: 150px;
+    height: 70px;
+    background-color: rgb(20, 8, 129);
+    margin-left: 90px;
+}
+#quadrado {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 238, 0, 0.753);
+    margin-left: 110px;
+}
+
+
