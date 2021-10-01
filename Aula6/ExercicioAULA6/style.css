@@ -1,0 +1,33 @@
+.container{
+    font-size: 1.5rem;
+    background-color: greenyellow;
+    border: solid 2px green;
+    text-align: center;
+}
+.row{
+    background-color: white;
+}
+.box_1{
+    font-size: 1.5rem;
+    text-align: left;
+    background-color: honeydew;
+    height: 120px;
+    width: 40px;
+    border: solid 1px green;  
+}
+.box_2{
+    font-size: 1.5rem;
+    text-align: left;
+    background-color: rgb(120, 236, 120);
+    border: solid 1px purple;
+    height: 100px;
+}   
+.box_3{
+    font-size: 1.5rem;
+    text-align: left;
+    background-color: rgb(5, 139, 110);
+    border: solid 2px green;
+    height: 80px;
+}
+
+
