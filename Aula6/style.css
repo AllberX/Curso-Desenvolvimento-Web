@@ -1,35 +1,59 @@
-body{
+.container{
+    font-size: 1.5rem;
+    background-color:deepskyblue;
+    text-align: center;
 
-    background-image: linear-gradient(#006aac, #03a1c0);
 }
 
-.container{
+.caixa_cinza{
+background-color:rgb(105, 110, 110);
+border: solid black 2px; 
+}
+
+.alinha-centro{
     text-align: center;
-    min-height: 100vh;
-    
 }
 
 .row{
-    background-color: white;
-    border-radius: 10px;
+background-color:white;
 }
 
 .caixa_titulo{
-    border-bottom: solid 1px lightgray;
-    font-size: 20px;
+border: solid 2px rgb(36, 207, 230);
+font-size: 20px;
 }
 
 .caixa_conteudo{
+    border: solid 2px rgb(36, 207, 230);
     font-size: 20px;
     height: 300px;
-}
+    }
 
 .caixa_formulario{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: left;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: left;
 }
 
-.btn-primary{
-    width: 100%;
+
+
+
+
+/*
+.container{
+    font-size: 1.5rem;
 }
+
+.col-12{
+    background-color: cyan;
+}  
+
+.col-4{
+    background-color: grey
+} 
+
+*/
+
+
+
+
