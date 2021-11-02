@@ -1,0 +1,18 @@
+.banner-padrao{
+    height: 580px !important;
+    object-fit: fill;
+}
+
+.carousel-caption{
+background-color: rgb(0, 0, 0, 0.7);
+width: 100%;
+left: 0% !important;
+bottom: 0% !important;
+
+}
+
+.card-body{
+color: black;
+
+}
+

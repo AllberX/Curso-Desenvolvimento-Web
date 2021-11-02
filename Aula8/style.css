@@ -1,0 +1,68 @@
+.container{
+    font-size: 1.5rem;
+    background-color:deepskyblue;
+    text-align: center;
+    border: solid 5px red;
+}
+.row{
+    background-color:white;
+    border: solid 5px orange;
+    min-height: 500px;
+}
+.alinha-centro{
+    text-align: center;
+}
+.caixa_titulo{
+    border: solid 8px rgb(25, 2, 233);
+    padding: 50px;
+    font-size: 30px;
+}
+.caixa_greenR{
+background-color:rgb(235, 233, 160);
+border: solid rgb(1, 88, 40) 2px; 
+text-align: right;
+}
+.caixa_greenL{
+    background-color:rgb(235, 233, 160);
+    border: solid rgb(1, 88, 40) 2px; 
+    text-align: left;
+}
+
+/* Dentro da caixa media, vão as informações de como vai ficar o layout após assumir a resolução
+minima ou maxima para visualização no Mobile, nela @media abre {     e   fecha }  e dentro das chaves vão
+todas as informações do layout */
+
+@media (max-width: 768px){   
+.caixa_greenR{
+    text-align: center;
+}
+.caixa_greenL{
+    text-align: center;
+}
+
+}
+
+
+/*
+.caixa_formulario{
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: left;
+}
+
+.caixa_conteudo{
+    border: solid 2px rgb(36, 207, 230);
+    font-size: 20px;
+    height: 300px;
+    }
+
+.container{
+    font-size: 1.5rem;
+}
+.col-12{
+    background-color: cyan;
+}  
+.col-4{
+    background-color: grey
+} 
+*/
