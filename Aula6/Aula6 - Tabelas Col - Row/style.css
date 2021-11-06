@@ -1,0 +1,59 @@
+.container{
+    font-size: 1.5rem;
+    background-color:deepskyblue;
+    text-align: center;
+
+}
+
+.caixa_cinza{
+background-color:rgb(105, 110, 110);
+border: solid black 2px; 
+}
+
+.alinha-centro{
+    text-align: center;
+}
+
+.row{
+background-color:white;
+}
+
+.caixa_titulo{
+border: solid 2px rgb(36, 207, 230);
+font-size: 20px;
+}
+
+.caixa_conteudo{
+    border: solid 2px rgb(36, 207, 230);
+    font-size: 20px;
+    height: 300px;
+    }
+
+.caixa_formulario{
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: left;
+}
+
+
+
+
+
+/*
+.container{
+    font-size: 1.5rem;
+}
+
+.col-12{
+    background-color: cyan;
+}  
+
+.col-4{
+    background-color: grey
+} 
+
+*/
+
+
+
+
