@@ -1,0 +1,30 @@
+.cinza{
+    background-color: #2716bd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sessao_colorida{
+    background-color: rgb(9, 106, 231);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.caixa_servico{
+background-color: white;
+min-height: 40px;
+margin: 10px;
+border-radius: 5px;
+padding: 10px;
+text-align: center;
+}
+.card-img-top{
+    min-height: 160px;
+    max-height: 160px;
+}
+.direitos{
+    border: solid 3px blue;
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+    min-height: 40px;
+    border-radius: 5px;
+}
