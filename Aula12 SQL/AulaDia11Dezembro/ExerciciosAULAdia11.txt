@@ -1,0 +1,41 @@
+SNOME: SYLVIO ALBERTO 
+----------------------------------------------------------------------
+
+1 - TRAGA A QUANTIDADE DE ATENDIMENTOS AGRUPADOS POR CODIGO DE PACIENTE
+
+SELECT atd.cd_paciente AS codigo_paciente, COUNT(*) AS qtd_atendimento 
+FROM atendimento AS atd
+GROUP BY atd.cd_paciente;
+
+----------------------------------------------------------------------
+
+2 - TRAGA A SOMA DO VALOR DO ATENDIMENTO AGRUPADO POR CONVENIO
+
+SELECT cd_convenio, SUM(vl_atendimento) AS V_atend 
+FROM atendimento 
+GROUP BY cd_convenio
+
+----------------------------------------------------------------------
+
+3 - TRAGA O ATENDIMENTO MAIS RECENTE AGRUPADO PELO CODIGO DE PACIENTE
+
+SELECT cd_paciente, MAX(dt_atendimento) AS Recente
+FROM atendimento 
+GROUP BY cd_paciente
+
+----------------------------------------------------------------------
+
+4 - TRAGA O ATENDIMENTO MAIS ANTIGO AGRUPADO POR CODIGO DE ESPECIALIDADE 
+
+SELECT cd_especialidade, MIN(dt_atendimento) AS Antiga
+FROM atendimento 
+GROUP BY cd_especialidade
+
+----------------------------------------------------------------------
+
+5 - TRAGA A SOMA DO VALOR DO ATENDIMENTO AGRUPADO POR PACIENTE ONDE O CODIGO DO CONVENIO ESTEJA ENTRE 1 e 3
+
+SELECT cd_paciente, SUM(vl_atendimento) AS ValorTotal
+FROM atendimento 
+WHERE cd_convenio BETWEEN 1 and 3
+GROUP BY cd_paciente
